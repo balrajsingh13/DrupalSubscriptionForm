@@ -1,0 +1,6 @@
+name: Contact us
+description: 'Allow all user to enter details and automatic send mail to administerator'
+package: Custom
+type: module
+version: 1.0
+core: 8.x

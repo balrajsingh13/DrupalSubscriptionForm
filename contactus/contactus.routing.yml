@@ -1,0 +1,15 @@
+contactus.form:
+  path: '/form'
+  defaults:
+    _form: '\Drupal\contactus\Form\ContactForm'
+    _title: 'Contact Us Form'
+  requirements:
+    _permission: 'access content'
+
+contactus.report:
+  path: '/subscribers'
+  defaults:
+    _controller: '\Drupal\contactus\Controller\ContactController::report'
+    _title: 'List of all subscribers'
+  requirements:
+    _permission: 'access content' 
